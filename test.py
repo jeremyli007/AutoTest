@@ -16,5 +16,4 @@ driver.find_element_by_xpath('//*[@id="dl"]/div').send_keys('19931007LJ')
 driver.find_element_by_class_name('button').click()
 driver.close()
 
-
 # 什么也没改

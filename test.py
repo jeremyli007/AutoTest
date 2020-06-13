@@ -10,10 +10,9 @@ driver.get(url)
 
 # driver.find_element_by_id('//input[@id="j_username"]').send_keys('174206')
 # //*[@id="dl"]/input[1]
-driver.find_element_by_xpath('//*[@id="dl"]/input[1]').send_keys('174206')
+# driver.find_element_by_xpath('//*[@id="dl"]/input[1]').send_keys('174206')
 time.sleep(2)
-driver.find_element_by_xpath('//*[@id="dl"]/div').send_keys('19931007LJ')
-driver.find_element_by_class_name('button').click()
+# driver.find_element_by_xpath('//*[@id="dl"]/div').send_keys('19931007LJ')
+# driver.find_element_by_class_name('button').click()
 driver.close()
-
 # 什么也没改
